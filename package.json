@@ -16,6 +16,10 @@
   "dependencies": {
     "@alch/alchemy-web3": "^1.1.9",
     "@openzeppelin/contracts": "^4.4.2",
-    "dotenv": "^14.2.0"
+    "dotenv": "^14.2.0",
+    "minimist": "^1.2.5"
+  },
+  "bin": {
+    "send-eth": "./scripts/sendTx.js"
   }
 }
