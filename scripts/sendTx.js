@@ -5,14 +5,14 @@ const env = require('hardhat');
 const argv = require('minimist')(process.argv.slice(2));
 
 async function sendTx(pvtKey, fromAddress, toAddress, ethAmount, gasFee) {
-    
+
     const { API_URL } = process.env;
 
     const { createAlchemyWeb3 } = require("@alch/alchemy-web3");
     const web3 = createAlchemyWeb3(API_URL);
 
     const nonce = await web3.eth.getTransactionCount(fromAddress, 'latest'); // nonce starts counting from 0
-    
+
     const transaction = {
      'to': toAddress,
      'value': ethAmount * 1000000000000000000, // 10^18 wei = 1 ETH
