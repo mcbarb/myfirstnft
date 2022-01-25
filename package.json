@@ -18,5 +18,8 @@
     "@openzeppelin/contracts": "^4.4.2",
     "dotenv": "^14.2.0",
     "minimist": "^1.2.5"
+  },
+  "bin": {
+    "send-eth": "./scripts/sendTx.js"
   }
 }
