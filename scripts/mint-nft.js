@@ -10,6 +10,8 @@ const ownerAddress = MYADDRESS;
 const nftContract = new web3.eth.Contract(contract.abi, contractAddress);
 
 async function mintNFT(tokenURI) {
+    if (!tokenURI) {console.log('error'); return null;}
+
     const nonce = await web3.eth.getTransactionCount(ownerAddress, 'latest'); //get latest nonce
 
     //the transaction
@@ -48,3 +50,5 @@ async function mintNFT(tokenURI) {
         })
 
 }
+
+module.exports = { mintNFT }
