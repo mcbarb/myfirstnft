@@ -1,0 +1,13 @@
+{
+    "id": 3,
+    "description": "Drawing of Tubára, ficticious character that saves olives from food poisoning.",
+    "name": "Tubára",
+    "image": "https://gateway.pinata.cloud/ipfs/QmafJaXiBhr3SeJbqWvM7Ya8YVU9q46ZWucNHvw8qPHZ6g",
+    "attributes": {
+        "power": "green apple",
+        "cerro": "Chapelco",
+        "city": "San Martin de Los Andes",
+        "country": "Argentina",
+        "year": 2007
+    }
+}
