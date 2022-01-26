@@ -18,3 +18,5 @@ function createNftMetadata(id, name, description, imageURI, otherAttributes = {}
         }
     )
 }
+
+module.exports = { createNftMetadata }
