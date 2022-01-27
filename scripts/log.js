@@ -33,3 +33,18 @@ const { mintNFT } = require('./mint-nft');
 //         }
 //     )
 // mintNFT('https://gateway.pinata.cloud/ipfs/QmVPCCXm35t3yiCHMuP45doYePvAGZzFE18px3gT4B5G1w')
+
+
+// Bubbles #005
+// createNftMetadata(
+//     5,
+//     "Bubbles",
+//     "Bubbles scheme",
+//     "https://gateway.pinata.cloud/ipfs/QmSUrtueLYGbyU3EiFDdZRBz1j1KwYB9SETXb5n3R1UDZc",
+//     {
+//         city: "Berlin",
+//         country: "Germany",
+//         year: 2021
+//     }
+// )
+// mintNFT("https://gateway.pinata.cloud/ipfs/QmUaCF2GaFAbXrjcuxNjj71ifPtn6xEWwhGphK3zpmRFJV")

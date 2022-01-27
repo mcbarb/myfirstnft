@@ -1,0 +1,11 @@
+{
+    "id": 5,
+    "description": "Bubbles scheme",
+    "name": "Bubbles",
+    "image": "https://gateway.pinata.cloud/ipfs/QmSUrtueLYGbyU3EiFDdZRBz1j1KwYB9SETXb5n3R1UDZc",
+    "attributes": {
+        "city": "Berlin",
+        "country": "Germany",
+        "year": 2021
+    }
+}
